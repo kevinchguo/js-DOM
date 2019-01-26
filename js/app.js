@@ -6,6 +6,8 @@ Find the div with the id of "name1" and replace the n/a with the following:
 
 Tay-Tay*/
 
+var changeName = document.getElementById('name1');
+changeName.innerHTML = 'Tay-Tay';
 
 /*2. DJ Khaled
 
@@ -13,6 +15,8 @@ Find the div with the id of "position2" and replace the n/a with the following:
 
 Project Manager*/
 
+let changePosition = document.getElementById('position2');
+changePosition.innerHTML = 'Project Manager';
 
 /*3. Piko Taro
 
@@ -20,6 +24,8 @@ Find the div with the id of "alias3" and replace the n/a with the following:
 
 Concatenation*/
 
+var changeAlias = document.getElementById('alias3');
+changeAlias.innerHTML = 'Concatenation';
 
 /*4. Prince
 
