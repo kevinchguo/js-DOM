@@ -47,7 +47,9 @@ changeProfile[1].innerHTML = 'wataaaaah'
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
-
+var changeAlias2 = document.getElementsByClassName('alias');
+console.log(changeAlias2)
+changeAlias2[2].innerHTML = 'idk'
 
 /*7. David Ige
 
@@ -55,6 +57,10 @@ Create a div element and give it an id of "name7". Inside this div element, give
 
 Append this div element to the nameParent div*/
 
+var makeName = document.createElement('div');
+makeName.id = 'name7';
+makeName.innerHTML = 'David Ige'
+nameParent.appendChild(makeName);
  
 /*8. The Dos Equis Dude
 
@@ -62,7 +68,10 @@ Create a div element give it an id of "alias8". Inside this div element, give it
 
 Append this div element to the aliasParent div.*/
 
-
+var makeAlias = document.createElement('div');
+makeAlias.id = 'alias8';
+makeAlias.innerHTML = 'Stay thirsty my friends.'
+aliasParent.appendChild(makeAlias);
 
 //Final Boss
 /*9. Create your own profile.*/
@@ -80,4 +89,13 @@ newName.id = 'name9';
 newName.innerHTML = 'Xiao bao bao';
 divBlock[2].appendChild(newName);
 
-// var posBlock = document.getElementsByClassName()
+var newProfile = document.createElement('div')
+newProfile.id = 'profileBao'
+newProfile.innerHTML = "Hi, im from WeChat and I'm super cute";
+name9.appendChild(newProfile);
+
+var newHobbies = document.createElement('div');
+newHobbies.id = 'hobbies';
+newHobbies.innerHTML = 'I like to chat with my friends all day on WeChat';
+profileBao.appendChild(newHobbies);
+
