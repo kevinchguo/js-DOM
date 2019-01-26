@@ -57,3 +57,17 @@ Append this div element to the aliasParent div.*/
 //Final Boss
 /*9. Create your own profile.*/
 
+var imgElem = document.getElementsByTagName('img');
+console.log(imgElem);
+
+var divBlock = document.getElementsByClassName('block3')
+console.log(divBlock)
+
+imgElem[8].src = 'https://bit.ly/2RhiB9x'
+
+var newName = document.createElement('div');
+newName.id = 'name9';
+newName.innerHTML = 'Xiao bao bao';
+divBlock[2].appendChild(newName);
+
+var posBlock = document.getElementsByClassName()
