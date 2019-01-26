@@ -15,7 +15,7 @@ Find the div with the id of "position2" and replace the n/a with the following:
 
 Project Manager*/
 
-let changePosition = document.getElementById('position2');
+var changePosition = document.getElementById('position2');
 changePosition.innerHTML = 'Project Manager';
 
 /*3. Piko Taro
@@ -31,13 +31,17 @@ changeAlias.innerHTML = 'Concatenation';
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
-
+var changeProfile = document.getElementsByClassName('profile');
+console.log(changeProfile)
+changeProfile[0].innerHTML = 'Dave Chappelle'
 
 /*5. Bruce Lee
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
-
+var changeProfile = document.getElementsByClassName('profile');
+console.log(changeProfile)
+changeProfile[1].innerHTML = 'wataaaaah'
 
 /*6. Samuel L Jackson
 
@@ -76,4 +80,4 @@ newName.id = 'name9';
 newName.innerHTML = 'Xiao bao bao';
 divBlock[2].appendChild(newName);
 
-var posBlock = document.getElementsByClassName()
+// var posBlock = document.getElementsByClassName()
